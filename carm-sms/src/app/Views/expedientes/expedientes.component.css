@@ -1,0 +1,17 @@
+.buscador {
+    margin-bottom: 20px;
+  }
+  
+  .buscador input[type="text"] {
+    padding: 5px;
+  }
+  
+  .buscador ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .buscador li {
+    margin-bottom: 5px;
+  }
+  

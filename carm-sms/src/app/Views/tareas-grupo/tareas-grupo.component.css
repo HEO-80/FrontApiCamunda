@@ -1,0 +1,47 @@
+.task-group {
+    background-color: #f1f1f1;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .task-group h3 {
+    margin-top: 0;
+  }
+  
+  .task-group ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .task-group li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .task-group li.completed {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  .task-group input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .task-group form {
+    margin-top: 10px;
+  }
+  
+  .task-group input[type="text"] {
+    padding: 5px;
+    margin-right: 10px;
+  }
+  
+  .task-group button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  

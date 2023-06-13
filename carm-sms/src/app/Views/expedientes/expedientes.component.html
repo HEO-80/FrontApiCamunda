@@ -1,0 +1,8 @@
+<p>expedientes </p>
+<div class="buscador">
+    <input type="text" [(ngModel)]="terminoBusqueda" placeholder="Buscar expediente" (input)="buscarExpedientes()">
+    <ul>
+      <li *ngFor="let expediente of resultadosBusqueda">{{ expediente }}</li>
+    </ul>
+  </div>
+  

@@ -1,0 +1,14 @@
+<h2>tareas-grupo works!</h2>
+<div class="task-group">
+    <h3>{{ titulo }}</h3>
+    <ul>
+      <li *ngFor="let tarea of tareas" [class.completed]="tarea.completada">
+        <input type="checkbox" [(ngModel)]="tarea.completada" (change)="marcarTarea(tarea)">
+        <span>{{ tarea.nombre }}</span>
+      </li>
+    </ul>
+    <form (ngSubmit)="agregarTarea()">
+      <input type="text" [(ngModel)]="nuevaTarea" placeholder="Nueva tarea" required>
+      <button type="submit">Agregar Tarea</button>
+    </form>
+  </div>

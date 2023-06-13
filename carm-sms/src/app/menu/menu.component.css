@@ -1,0 +1,101 @@
+#menu {
+    padding: 0;
+    width: 100%;
+    height: 40px;
+    color: #8a0068;
+  }
+  menu:hover{
+    background-color: rgb(195, 195, 195);
+    color: black;
+  }
+  
+  #menu li {
+    display: inline;
+  }
+  
+  #menu li:hover{
+    color: black;
+  }
+
+
+  .inicioDiv{
+    background-color: white;
+    padding: 10px;
+
+  }
+
+  .inicioDiv:hover{
+    background-color: rgb(191, 191, 191);
+  }
+  .mistareas{
+    background-color: white;
+    padding: 10px;
+
+  }
+  .mistareas:hover{
+    background-color: rgb(191, 191, 191);
+  }
+  .tdgrupo{
+    background-color: white;
+    padding: 10px;
+
+  }
+  .tdgrupo:hover{
+    background-color: rgb(191, 191, 191);
+  } 
+  .bexpedientes{
+    background-color: white;
+    padding: 10px;
+
+  }
+  .bexpedientes:hover{
+    background-color: rgb(191, 191, 191);
+
+  }
+  .blog{
+    background-color: white;
+    padding: 10px;
+
+  }
+  .blog:hover{
+    background-color: rgb(191, 191, 191);
+
+  }
+  .about{
+    background-color: white;
+    padding: 10px;
+
+  }
+  .about:hover{
+    background-color: rgb(191, 191, 191);
+
+  }
+  .acceso{
+    background-color: white;
+    padding: 10px;
+
+  }
+  .acceso:hover{
+    background-color: rgb(191, 191, 191);
+
+  }
+
+
+  #menu li span {
+    font-family: Arial;
+    float: left;
+    padding: 10px;
+  }
+  
+  
+ 
+
+  hr {
+    height: 10px;
+    background-color: #8a0068;
+  }
+
+  #button {
+    position: absolute;
+    right: 10px;
+  }

@@ -1,0 +1,21 @@
+#footer{
+    background-color: black;
+
+}
+
+.servicio{
+    color: aliceblue;
+}
+.info{
+    color: red;
+}
+
+.terms {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .terms > p {
+    margin: 10px;
+  }

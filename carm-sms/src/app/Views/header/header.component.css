@@ -1,0 +1,8 @@
+.terms {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .terms > p {
+    margin: 10px;
+  }
